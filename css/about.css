@@ -1,0 +1,117 @@
+body, html{
+    font-family:'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(/my-portfolio/images/ocean-918999.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.header, .footer{
+    padding: 15px 0;
+    color: white;
+}
+
+.header{
+    background-color: #000; opacity: 0.5; filter: alpha(opacity=50);
+}
+
+.header ul{
+    padding: 0 10px;
+}
+
+.header h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.header li{
+    display: inline-block;
+    text-align: center;
+    margin: 6px;
+    width: 100px;
+}
+
+.header a{
+    color: white;
+}
+
+.header a:hover{
+    background: #000;
+    color: black;
+}
+
+.header h1 span{
+    border-bottom: 3px solid #fff;
+}
+
+.header h1 a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+
+/*main*/
+
+.main{
+    background: transparent;
+    margin-top: 50px
+}
+
+.main .container{
+    background-color: #000; opacity: 0.8; filter: alpha(opacity=50);
+    height: auto;
+    margin-bottom:270px;
+    text-align: center;
+}
+
+
+.main .row:first-child{
+    margin: 80px 50px 20px;
+}
+.main img{
+    border-radius: 100%;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.main p{
+    margin: 0 50px 0 50px;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 75px;
+}
+
+
+/*footer*/
+
+.footer{
+    height: auto;
+    background-color: #000; opacity: 0.5; filter: alpha(opacity=50);
+    margin: 0;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.footer a{
+    color: white;
+}
